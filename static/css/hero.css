@@ -1,11 +1,28 @@
 .hero{
-    height: 100vh;
-    background: transparent linear-gradient(180deg, #1A1E23 0%, #54545470 100%) 0% 0% no-repeat padding-box;
-    background-image: url("../images/david-benes-zsRhTW3qrmo-unsplash.png");
-    background-size: cover;
+    height: 80vh;
+    /* background: transparent linear-gradient(180deg, #1A1E23 0%, #54545470 100%) 0% 0% no-repeat padding-box; */
+    background: transparent url("../images/david-benes-zsRhTW3qrmo-unsplash.png")  0% 0% no-repeat padding-box;
+    /* background-image: url("../images/david-benes-zsRhTW3qrmo-unsplash.png"); */
+    /* background-size: cover; */
+    mix-blend-mode: multiply;
+    /* background-size: cover; */
     /* width:100%; */
 }
 
 .hero h1{
-    color:black;
+    color:white;
+    size: 50px;
+    text-align: center;
+    font: normal normal bold 120px/120px Quicksand;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+    line-height: 40%;
+}
+.hero p {
+    text-align: center;
+    font: normal normal bold 36px/40px DM Sans;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
 }

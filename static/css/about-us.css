@@ -17,6 +17,7 @@
     grid-area: about-us-img;
     justify-content: center;
     margin: auto;
+    max-width:625px;
     
 }
 .about-us-img img{
