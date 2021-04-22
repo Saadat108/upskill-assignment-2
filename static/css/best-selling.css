@@ -1,0 +1,41 @@
+.best-selling-section h1{
+    text-align: center;
+    
+}
+
+.best-selling {
+
+    display: grid;
+    grid-gap: 30px;
+    /* grid-template-columns: repeat(2, 1fr);
+
+    grid-template-rows: 1fr 1fr; */
+    grid-template-columns: repeat(auto-fit, 40rem);
+    justify-content: center;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+.best-selling img{
+    /* width: 625px; */
+}
+
+ .best-item {
+    /* background-image: url('./static/images/__opt__aboutcom__coeus__resources__content_migration__simply_recipes__uploads__2014__06__tuna-pasta-tomato-olives-horiz-a-1800-bacd443da10e41ebb50e44b@2x.png') */
+    
+
+    width: 625px;
+    height: 350px;
+    background-image: url('../images/david-benes-zsRhTW3qrmo-unsplash@2x.png');
+    background-size: cover;
+    /* margin:5px;  */
+    /* important above line */
+    border-radius: 10px;
+
+}
+
+.best-item button{
+    position: relative;
+    left:3%;
+    top:90%;
+}

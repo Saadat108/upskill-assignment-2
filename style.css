@@ -1,0 +1,22 @@
+@import "./static/css/navbar.css";
+@import "./static/css/hero.css";
+@import "./static/css/about-us.css";
+@import "./static/css/best-selling.css";
+@import "./static/css/food-categories.css";
+@import "./static/css/footer.css";
+@import "./static/css/stay-connected.css";
+
+* {
+    /* margin: 0;
+    padding: 0; */
+    /* background: #F2F5F8 0% 0% no-repeat padding-box; */
+}
+body{
+    background: #F2F5F8 0% 0% no-repeat padding-box;
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper{
+    display:grid;
+}

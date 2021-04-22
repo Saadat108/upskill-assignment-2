@@ -1,0 +1,25 @@
+.navbar {
+    grid-area: navbar;
+    background: #1A1E23;
+    height: 90px;
+    padding-top:2%;
+}
+
+.navbar span:nth-child(1){
+    
+    border: #6fb0d6 solid;
+    /* padding-top: 2%; */
+    /* margin-top:-10%; */
+    margin-left: 5%;
+
+}
+
+.navbar span:nth-child(2) {
+    
+    border: #6fb0d6 solid;
+    /* padding-top: 2%; */
+    /* margin-top:-10%; */
+    /* margin-left: 20%; */
+    align-self: right;
+
+}

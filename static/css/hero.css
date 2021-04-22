@@ -1,0 +1,11 @@
+.hero{
+    height: 100vh;
+    background: transparent linear-gradient(180deg, #1A1E23 0%, #54545470 100%) 0% 0% no-repeat padding-box;
+    background-image: url("../images/david-benes-zsRhTW3qrmo-unsplash.png");
+    background-size: cover;
+    /* width:100%; */
+}
+
+.hero h1{
+    color:black;
+}
