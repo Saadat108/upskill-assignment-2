@@ -23,3 +23,48 @@
     align-self: right;
 
 }
+
+/* here now */
+
+.topbar {
+    width:inherit;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Quicksand',
+    sans-serif;
+    flex-shrink: 0;
+    
+    background-color: #1A1E23;
+    padding: 16px 0px 0px 0px;
+    display: flex;
+    justify-content: space-around;
+    box-sizing: border-box;
+    font-family: 'Quicksand', sans-serif;
+    box-shadow: none;
+}
+
+.topbar .logo {
+    color: #FFFFFF;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.topbar .right {
+    margin-top: auto;
+    margin-bottom:auto;
+    display: flex;
+    font-family: 'DM Sans', sans-serif;
+    color: #FFFFFF;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.signup{
+    margin-right: 30px;
+    
+}
+.signup a{
+    color: inherit;
+    text-decoration: none;
+}

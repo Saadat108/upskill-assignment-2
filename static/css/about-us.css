@@ -3,14 +3,29 @@
     display:grid;
     grid-template-columns: 1fr, 1fr;
     padding:8%;
+    /* padding-right: 6%; */
     grid-template-areas: "about-us-text about-us-img ";
     justify-content: center;
-
+    /* padding-bottom: 10%; */
 }
 
 .about-us-text{
     grid-area: about-us-text;
     text-align: left;
+    padding-right: 4%;
+}
+.about-us-text h1{
+    font: normal normal bold 60px/80px Quicksand;
+    letter-spacing: 0px;
+    color: #E17E31;
+    opacity: 1;
+}
+
+.about-us-text p {
+    font: normal normal normal 18px/24px DM Sans;
+    letter-spacing: 0px;
+    color: #25374B;
+    opacity: 1;
 }
 
 .about-us-img{
@@ -28,6 +43,7 @@
 }
 
 @media only screen and (max-width: 1200px) {
+    
     .about-us {
         /* grid-area: about-us; */
         display: grid;
